@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+function rev(){
+//window.alert("hi")
+var num=document.getElementById("r").value;
+//window.alert("hi")
+while (num > 0) {
+        var dig = num % 10;
+        reve = reve * 10 + dig;
+        num = num / 10s;
+    }
+    alert("Reversed number: " + reve);
+}
+</script>
+</head>
+<body>
+Enter a number
+<input type="number" id="r"/>
+</br>
+<input type="button" value="Reverse" onclick="rev()"/>
+</body>
+</html>

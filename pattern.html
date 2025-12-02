@@ -1,0 +1,45 @@
+<!DOCTYPE html> /**
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let n = 5;
+      let str = "";
+      for (i = 1; i <= n; i++) {
+        for (j = 1; j <= i; j++) {
+          document.write("* ");
+        }
+        document.write("<br>");
+      }
+      console.log(str);
+    </script>
+  </body>
+</html>
+**/ // wap to print the fibonacci series up to n terms
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fibonacci Series</title>
+  </head>
+  <body>
+    <script>
+      let n = 10; // number of terms
+      let a = 0,
+        b = 1,
+        nextTerm;
+      console.log("Fibonacci Series:");
+      for (let i = 1; i <= n; i++) {
+        console.log(a);
+        nextTerm = a + b;
+        a = b;
+        b = nextTerm;
+      }
+    </script>
+  </body>
+</html>

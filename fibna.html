@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fibonacci Series</title>
+  </head>
+  <body>
+    <script>
+      let n = Number(prompt("Enter number of terms:"));
+      let a = 0;
+      let b = 1;
+      let c;
+      document.write("Fibonacci Series:");
+      for (i = 1; i <= n; i++) {
+        c = a + b;
+        a = b;
+        b = c;
+        document.write(a + " ");
+      }
+    </script>
+  </body>
+</html>

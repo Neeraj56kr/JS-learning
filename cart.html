@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function price(){
+//window.alert("hi");
+var pp=document.getElementById("pp").innerHTML;
+//window.alert(pp);
+var qty=document.getElementById("qty").value;
+var total=pp*qty;
+//document.write(total)
+document.getElementById("tp").innerHTML=total;
+}
+</script>
+</head>
+<body>
+<p id="pp">150</p>
+Quantity
+<select id="qty" onchange="price()">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+<p id="tp">150</p>
+</body>
+</html>
