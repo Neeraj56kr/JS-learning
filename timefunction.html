@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>function Expression</title>
+  </head>
+  <body>
+    <script>
+      // Function Expression
+
+      // immediately invoked function expression (IIFE)
+      (function () {
+        console.log(
+          "This is an immediately invoked function expression (IIFE)"
+        );
+      })();
+
+      // callback function
+      function sh(b) {
+        b();
+        console.log(b);
+      }
+      const a = () => {
+        console.log("This is a callback function");
+      };
+      sh(a);
+    </script>
+  </body>
+</html>
