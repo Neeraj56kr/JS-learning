@@ -1,0 +1,142 @@
+JavaScript :--
+		JavaScript is a client side scripting language                                                                                                                         
+		
+ECMA :--
+		European Computer manufacturing Association 
+		
+DOM:- (Document Object Model)
+BOM:- (Browser  Object Model)
+		
+Variable  =>
+
+	1. Var (redeclare, reassign , hoisted , global scope)
+	2. Let (reassign, block scope);
+	3. Const (block scope ); ===> array [], object {}, function()
+	4. Automatically 
+
+
+DataTypes ==>
+		DataTypes tells us which type of data stored in a variables
+		
+
+	1. primitive
+		1. Number 
+		2. String
+		3. Boolean 
+		4. Undefined
+		5. Null
+		6. Bigint
+		7. Symbol
+		8. Non
+	2. Reference DataType / non primitive DataType
+		1. Object
+			i. Object
+			ii. Array
+			iii. Function
+			 
+			
+Operators in js
+	1. Arthmetic
+	2. Assignment operator 
+	3. Relational  operator 
+	4. Logical  operator 
+	5. Bitwise  operator 
+	6. Ternary operator
+	7. Increment /Decrement
+
+
+Conditional Statements ==>
+			Conditional statements are those statements that execute block of code on the behalf of condition .
+			If condition is true than block of code execute .
+			
+			1. If
+			2. If-else
+		
+		
+Array  ==>
+		Array is collection of multipal values , in js array can collect any data type
+		1. Using  literals          ==> []
+		           Literals       
+		2. Using Constructor ==>Array()
+	
+	
+	
+	Push()
+	Pop()
+	Unshift()
+	Shift()
+	Splice(position , delectcount,….element)
+	Slice(1  se 4 tak)
+	
+	Map() map ka use operation ke karne bad next array return kar ke de
+	
+	Filter()  filter ka use array filter karte hai true
+	Reduce()     data ko  compres karene ke liye
+	
+	Join() String to Array OR
+	Split()  array to string
+
+String ===>
+		String is sequence of characters .
+		
+		
+	1. Using '  '
+	2. Using " "
+	3. Using literals   `  `
+	
+	
+
+
+<script>
+      let a = 120;
+      let str = "hello world";
+      let str2 = `   ${str} Total no of students a re ${a}`;
+      console.log(str.trimEnd().length);
+      console.log(str2.trimStart().length);
+      console.log(str);
+      console.log(str2);
+    </script>
+
+	
+	Tolowrecase
+
+Functions =>
+		Function is a block of code which is used to perform specific task task when it invoke.
+		
+Type of functions=>
+				1. Named function 
+				2. Anonymous function 
+				3. Arrow function
+				
+
+
+
+
+Object==>
+
+		Object is a real world entity.
+		OR
+		Object is a collection of methods and properties.
+	Type to making  object
+	1. Using Literals ----{}
+	2. Using Constructor ------object();
+Properties ==>
+		Properties are key value pair.
+Method ===>
+		Method is a function inside an object
+		
+		
+		
+# DOM  (document object model)
+Tag  ---->
+		Every tags are object 
+Attributes --->
+		Properties  / Nodes
+Selectors in js --->
+		1. getElementById
+		2. getElemenstByClassName
+		3. getElemenstByTageName
+		4. getElementsByName
+		5. querySelector
+		6. querySelectorAll
+		
