@@ -1,5 +1,9 @@
 let txt = document.getElementById("text");
 function set() {
+    if (txt.value === "") {
+        alert("Please enter a task");
+        return;
+    }
     let ar = JSON.parse(localStorage.getItem("text")) || []
     ar.push(txt.value)
 console.log(ar);
@@ -16,6 +20,10 @@ function show() {
     });
 }
 show();
-function del() {
-    alert(d)
+function del(d) {
+    //alert(d)
+    let a = JSON.parse(localStorage.getItem("text"))
+    a.splice(d,1)
+    localStorage.setItem("text", JSON.stringify(a))
+    window.location.reload();
 }
